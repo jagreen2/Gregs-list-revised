@@ -1,137 +1,100 @@
-* {
-	box-sizing: border-box;
-}
-
-body {
-	margin: 0;
-	padding: 80px;
-}
-
 header {
 	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+	width: 100%;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	background-color: lightgrey;
 	padding: 10px;
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #DDDDDD;
+
 }
 
-.top-nav {
+
+.navlink-left {
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	left: 15px;
+	color: black;
+	text-decoration: none;
+	
 }
 
-.nav-link {
-	font-size: 18px;
-	padding: 0 6px;
+.navlinks-right {
+	position: absolute;
+    right: 15px;
+    margin-right: 15px;
+
 }
 
-a {
+.navlink2 {
+	margin-right: 10px;
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
+.navlink3 {
+	text-decoration: none;
 }
-
-.rl-logo {
-	display: inline-block;
-	border-radius: 100%;
-	font-weight: 800;
-}
-
-.rl-logo h1 {
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
-}
-
 
 .search-section {
-	margin-bottom: 30px;
+	position: absolute;
+	left: 100px;
 }
-
 
 label {
 	display: block;
+	margin-top: 80px;
 	margin-bottom: 8px;
 }
 
+.search-section input {
+	margin-top: -22px;
 
-.search-selection input {
-	font-family: "Roboto", sans-serif;
-	font-size: 17px;
-	font-weight: 500;
-  	line-height: 30px;
-  	height: 30px;
-  	border: 1px solid #DDDDDD;
-  	border-radius: 3px;
-  	padding: 0 5px 0 8px;
-  	width: 400px;
 }
 
 .search-section .search-button {
-  	font-size: 17px;
-  	width: 37px;
-  	height: auto;
-  	padding: 2px 6px 3px 6px;
-  	background-color: white;
-  	border: 1px solid #DDDDDD;
-  	border-radius: 3px;
+	width: 37px;
+}
+
+.magnifying-glass-icon {
+	top: 117px;
+    left: 166px;
+	position: absolute;
 }
 
 .pages {
-  	display: inline-block; /* Tricky, this could start wrapping!  */
-  	font-size: 0;
-  	margin-bottom: 30px;
-  	border: 1px solid #DDDDDD;
-  	border-radius: 3px;
+	position: absolute;
+	left:100px;
+	top: 165px;
 }
 
 .pages-button {
-  	font-size: 16px;
-  	display: inline-block;
-  	padding: 8px 15px;
-  	border-radius: 3px;
+	border: 1px solid grey;
+    padding: 5px;
+    border-radius: 8%;
 }
 
 .pages-display {
-  	font-size: 16px;
-  	padding: 0 30px;
-  	padding: 8px 25px;
-  	border-left: 1px solid #DDDDDD;
-  	border-right: 1px solid #DDDDDD;
+	border: 1px solid grey;
+    padding: 5px;
 }
 
 .listings {
- 	padding: 0;
+	list-style-type: none;
 }
 
-.listing {
-  	list-style: none;
-  	margin-bottom: 15px;
-}
-
-.listing-date ,
-.listing-location {
-  	color: #999;
+main {
+	position: absolute;
+    top: 200px;
+    left: 60px;
 }
 
 .listing-title {
-  	font-weight: bold;
-  	font-size: 17px;
-  	margin-left: 8px;
-  	margin-right: 8px;
+	font-weight:bold;
+	text-decoration: none;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
-.search-button {
-  	vertical-align: bottom;
+.listing-date, .listing-location {
+	color: #999;
 }
-
-.star-icon, .magnifying-glass-icon {
-  	height: 100%;
-}
-
