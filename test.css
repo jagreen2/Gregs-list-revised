@@ -1,0 +1,15 @@
+body {
+
+}
+
+
+
+.navlinks-right {
+	position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.navlink2 {
+	margin-right: 10px;
+}
